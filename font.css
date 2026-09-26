@@ -1,0 +1,59 @@
+/* Body ka overall style */
+body {
+    background-color: #170e71;
+    font-family: Arial;
+}
+
+/* Main card */
+.card {
+    width: 350px;
+    height:  150px ;
+    
+    background-color: rgb(167, 243, 169);
+
+    /* Content ke andar space */
+    padding: 25px;
+
+    /* Card ke bahar space */
+    margin: 140px auto;
+
+    /* Border */
+    border: 1px solid #080202;
+
+    /* Rounded corners */
+    border-radius: 500px;
+
+    /* Text center */
+    text-align: center;
+}
+
+/* Heading */
+.card h1 {
+    color: #1a1a1a;
+    font-size: 28px;
+}
+
+/* Paragraph */
+.card p {
+    color: #1d1b1b;
+    font-size: 16px;
+}
+
+/* Button */
+.card button {
+    background-color: blue;
+    color: white;
+
+    padding: 10px 15px;
+   
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+/* Mouse button ke upar aane par */
+.card button:hover {
+    background-color: darkblue;
+}
